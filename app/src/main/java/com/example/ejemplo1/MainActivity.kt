@@ -67,7 +67,7 @@ fun Imagen(){
 
     ) {
         Image(
-            painter = painterResource(id = R.drawable.utiles),
+            painter = painterResource(id = R.drawable.math),
             contentDescription = null,
             contentScale = ContentScale.Crop,
             modifier = Modifier.fillMaxSize() // Se ajusta al tamaño del Box
