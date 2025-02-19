@@ -60,7 +60,7 @@ fun GreetingPreview(){
 }
 @Composable
 fun Content(){
-    Text("LUIS ENRIQUE TADEO SANDOVAL SANTOS",
+    Text("Bryan De la Cruz Molina",
         Modifier.padding(32.dp) // Outer padding (margin)
             .background(color = Color.Green) //background color
             .padding(16.dp) // Inner padding
@@ -69,7 +69,7 @@ fun Content(){
 
 @Composable
 fun Content2(){
-    Text("LUIS ENRIQUE TADEO SANDOVAL SANTOS",
+    Text("Bryan De la Cruz Molina",
         Modifier.padding(32.dp) // Outer padding (margin)
             .background(color = Color.Red) //background color
             .padding(16.dp) // Inner padding
@@ -79,7 +79,7 @@ fun Content2(){
 @Composable
 fun Content3(){
     Text(
-        "LUIS ENRIQUE TADEO SANDOVAL SANTOS",
+        "Bryan De la Cruz Molina",
         Modifier.padding(32.dp) // Outer padding (margin)
             .background(color = Color.Green) //background color
             .padding(16.dp) // Inner padding
@@ -89,7 +89,7 @@ fun Content3(){
 @Composable
 fun Content4(){
     Text(
-        text = "LUIS ENRIQUE TADEO SANDOVAL SANTOS",
+        text = "Bryan De la Cruz Molina",
         color = Color.White,
         modifier = Modifier
             .background(Color.Blue)
@@ -101,7 +101,7 @@ fun Content4(){
 @Composable
 fun Content5(){
     Text(
-        text = "LUIS ENRIQUE TADEO SANDOVAL SANTOS",
+        text = "Bryan De la Cruz Molina",
         color = Color.White,
         modifier = Modifier
             .background(Color.Gray)
