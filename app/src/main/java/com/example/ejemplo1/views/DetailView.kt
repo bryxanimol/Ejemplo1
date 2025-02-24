@@ -10,24 +10,25 @@ import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBarDefaults
-import androidx.compose.material3.rememberTopAppBarState
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 
-@SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
 @OptIn(ExperimentalMaterial3Api::class)
+@SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
 @Composable
-fun HomeView(){
+fun DetailView(){
     Scaffold (
         topBar = {
             CenterAlignedTopAppBar(
-                title = {Text(text = "Home View",
-                    color= Color.White)},
+                title = {
+                    Text(text = "Detail View",
+                    color= Color.White)
+                },
                 colors = TopAppBarDefaults.centerAlignedTopAppBarColors(
 
-                    containerColor = Color.Red
+                    containerColor = Color.Blue
                 )
             )
         }
@@ -35,6 +36,7 @@ fun HomeView(){
     {
         ContentView()
     }
+
 }
 @Composable
 private fun ContentView(){
@@ -43,7 +45,7 @@ private fun ContentView(){
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ){
-        Text(text = "Home")
+        Text(text = "Detail")
     }
 
 }
