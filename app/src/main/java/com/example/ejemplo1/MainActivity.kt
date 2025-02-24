@@ -19,27 +19,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            Ejemplo1Theme {
-                    Content()
-                }
+
             }
         }
     }
-
-
-@Preview(showBackground = true)
-@Composable
-fun Content(){
-    Text(
-        text = "Hola Jetpack Compose",
-        color = Color.Red,
-        textAlign = TextAlign.Center,
-        fontWeight = FontWeight.Bold,
-        fontSize = 20.sp
-    )
-    /**Modificadores
-     * De posicicionamiento = width, height, top, buttom, start, end
-     * De funcionalidad = click, scroll
-     * De apariencia = background, padding, border
-     */
-}
