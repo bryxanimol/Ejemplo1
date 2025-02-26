@@ -13,6 +13,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import com.example.ejemplo1.components.ActionButton
+import com.example.ejemplo1.components.MainButton
+import com.example.ejemplo1.components.Spacers
 import com.example.ejemplo1.components.TitleBar
 import com.example.ejemplo1.components.TitleView
 
@@ -48,5 +50,9 @@ private fun ContentView(){
         horizontalAlignment = Alignment.CenterHorizontally
     ){
         TitleView("Hola")
+        Spacers()
+        MainButton("Generico", Color.Red,Color.White) {
+
+        }
     }
 }
