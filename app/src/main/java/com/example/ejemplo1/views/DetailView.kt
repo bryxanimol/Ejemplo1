@@ -2,9 +2,12 @@ package com.example.ejemplo1.views
 
 import android.annotation.SuppressLint
 import androidx.annotation.ContentView
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.ArrowBack
@@ -57,16 +60,9 @@ fun DetailView(navController: NavController){
 }
 @Composable
 private fun ContentView(navController: NavController){
-    Column (
-        modifier = Modifier.fillMaxSize(),
-        verticalArrangement = Arrangement.Center,
-        horizontalAlignment = Alignment.CenterHorizontally
-    ) {
-        TitleView("Hola")
-        Spacers()
-        MainButton("Generico", Color.Red, Color.White) {
-            navController.popBackStack()
-        }
+    LazyColumn{
+            TitleView("Detail")
+
     }
 
 }
